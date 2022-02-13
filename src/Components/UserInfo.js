@@ -1,3 +1,4 @@
+/* eslint-disable no-trailing-spaces */
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import Paper from '@mui/material/Paper';
@@ -20,36 +21,42 @@ function UserInfo({ users }) {
             <ListItem>
               <Typography>
                 - Name:
+                {' '}
                 {user.name}
               </Typography>
             </ListItem>
             <ListItem>
               <Typography>
-                - User Name:
+                - Username:
+                {' '}
                 {user.username}
               </Typography>
             </ListItem>
             <ListItem>
               <Typography>
                 - Email:
+                {' '}
                 {user.email}
               </Typography>
             </ListItem>
             <ListItem>
               <Typography>
                 - Phone:
+                {' '}
                 {user.phone}
               </Typography>
             </ListItem>
             <ListItem>
               <Typography>
                 - Company:
+                {' '}
                 {user.company.name}
               </Typography>
             </ListItem>
             <ListItem>
               <Typography>
                 - Website:
+                {' '}
                 {user.website}
               </Typography>
             </ListItem>
@@ -60,25 +67,29 @@ function UserInfo({ users }) {
                 </Typography>
                 <ListItem>
                   <Typography>
-                    - street:
+                    - street:  
+                    {' '}
                     {user.address.street}
                   </Typography>
                 </ListItem>
                 <ListItem>
                   <Typography>
-                    - suite:
+                    - suite: 
+                    {' '}
                     {user.address.suite}
                   </Typography>
                 </ListItem>
                 <ListItem>
                   <Typography>
                     - city:
+                    {' '}
                     {user.address.city}
                   </Typography>
                 </ListItem>
                 <ListItem>
                   <Typography>
                     - zipcode:
+                    {' '}
                     {user.address.zipcode}
                   </Typography>
                 </ListItem>
